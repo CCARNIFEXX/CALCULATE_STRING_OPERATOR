@@ -21,7 +21,10 @@ public class Evaluator
      *      [1-9] любая цифра от одного до девяти или
      *      10 - десять
      * \s* Могут быть пробелы от нуля до много раз)
-     * @see <a href="https://regexcrossword.com" > Регулярки изучал здесь </a>
+     * @see <a href="https://regexcrossword.com" > Регулярки пробовал тут </a>
+     * @see <a href="https://javarush.com/groups/posts/regulyarnye-vyrazheniya-v-java"> Регулярки изучал здесь </a>
+     * @see <a href="https://regex101.com/">Регулярки проверял тут </a>
+     * @see <a href="https://www.baeldung.com/javadoc-see-vs-link"> Узнал как указывать ссылки тут </a>
      */
     private static final Pattern p = Pattern.compile("\s*(\"[^\"]{1,10}\")\s*([-+*/])\s*(\"[^\"]{1,10}\"|[1-9]|10)\s*");
 
